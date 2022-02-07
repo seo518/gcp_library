@@ -1,0 +1,30 @@
+{
+  "bidmanager": {
+    "listQueries": ["https://www.googleapis.com/doubleclickbidmanager/v1.1/queries"]
+  },
+  "dfa": {
+    "getProfileList": ["https://www.googleapis.com/dfareporting/v3.3/userprofiles/{PROFILE_ID}"],
+    "listProfileReports": ["https://www.googleapis.com/dfareporting/v3.3/userprofiles/{PROFILE_ID}/reports"],
+    "getProfileReportLatest": ["https://www.googleapis.com/dfareporting/v3.3/userprofiles/{PROFILE_ID}/reports/{REPORT_ID}/files"],
+    "listUserProfiles": ["https://www.googleapis.com/dfareporting/v3.3/userprofiles"],
+    "listReportfiles": ["https://www.googleapis.com/dfareporting/v3.3/userprofiles"]
+  },
+  "sheets": {
+    "spreadsheet.values": ["https://sheets.googleapis.com/v4/spreadsheets/{spreadsheetId}/values/{range}"]
+  },
+  "drive": {
+    "drive.listFiles": ["https://www.googleapis.com/drive/v3/files"],
+    "drive.emptyTrash": ["https://www.googleapis.com/drive/v3/files/trash"]
+  },
+  "dfatrafficking": {
+    "listAccountUserProfiles": ["https://www.googleapis.com/dfareporting/v3.1/userprofiles/{PROFILE_ID}/accountUserProfiles"]
+  },
+  "dv360":{
+    "advertiser_lineItems_list":"https://displayvideo.googleapis.com/v1/advertisers/{ADVERTISER_ID}/lineItems",
+    "advertiser_lineItems_patch":"https://displayvideo.googleapis.com/v1/advertisers/{ADVERTISER_ID}/lineItems/{LINE_ITEM_ID}",
+    "targetingOptionsGeoSearch":"https://displayvideo.googleapis.com/v1/targetingTypes/TARGETING_TYPE_GEO_REGION/targetingOptions:search",
+    "createTargetingOption": "https://displayvideo.googleapis.com/v1/advertisers/{ADVERTISING_ID}/lineItems/{LINE_ITEM_ID}/targetingTypes/{TARGETING_TYPE}/assignedTargetingOptions",
+    "advertiser_insertionOrders_list":"https://displayvideo.googleapis.com/v1/advertisers/{ADVERTISING_ID}/insertionOrders"
+  }
+}
+
